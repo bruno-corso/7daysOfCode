@@ -1,0 +1,30 @@
+.cabecalho{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+    padding: 0 22vw;
+    width: auto;
+}
+
+.cabecalho__sobretitulo{
+    color: #8E2424;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.cabecalho__titulo{
+    color: #101828;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 2.25rem;
+}
+
+.cabecalho__txtsuporte{
+    color: #667085;
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: center;
+}

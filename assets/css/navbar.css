@@ -1,0 +1,66 @@
+.navbar{
+    background-color: #FFF;
+    font-weight: 500;
+    height: calc(1.25rem*4);
+    padding: 0 7rem;
+    width: auto;
+}
+
+.navbar__navegacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(1.25rem*4);
+}
+
+.navbar__logo{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.navbar__logo-img{
+    margin-right: 0.5rem;
+}
+
+.navbar__logo-titulo{
+    color: #3A404E;
+}
+
+.navbar__objetivo{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+}
+
+.navbar__objetivo-item{
+    margin-right: 2rem;
+}
+
+.navbar__objetivo-item a{
+    color: #667085;
+    text-decoration: none;
+}
+
+.navbar__login{
+    display: flex;
+    flex-grow: 1;
+}
+
+.navbar__login-itens{
+    margin-right: 3rem;
+}
+
+.navbar__login-itens a{
+    color: #667085;
+    text-decoration: none;
+}
+
+.navbar__login-itens:last-child a{
+    background-color: #8E2424;
+    padding: 0.625rem 1.125rem;
+    border-radius: 0.5rem;
+    color: #FFF;
+}
