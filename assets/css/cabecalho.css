@@ -4,7 +4,6 @@
     flex-direction: column;
     justify-content: center;
     height: 40vh;
-    padding: 0 22vw;
     width: auto;
 }
 
@@ -27,4 +26,6 @@
     font-weight: 400;
     font-size: 1.25rem;
     text-align: center;
+    width: 55vw;
+    line-height: 1.875rem;
 }

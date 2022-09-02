@@ -1,3 +1,7 @@
 :root{
     font-family: 'Inter', sans-serif;
 }
+
+.container{
+    padding: 0 7rem;
+}
