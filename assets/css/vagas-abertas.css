@@ -1,0 +1,97 @@
+.vagasAbertas{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+.vagasAbertas__sobretitulo{
+    color: #8E2424;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 1rem ;
+    font-size: 0.875rem;
+    padding: 0.25rem 0.75rem;
+    font-weight: 500;
+}
+
+.vagasAbertas__titulo{
+    color: #101828;
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+    margin-top: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.vagasAbertas__txtsuporte{
+    color: #667085;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.vagasAbertas__img{
+    margin: 2rem 0;
+    width: 100%;
+    max-width: 76rem;
+}
+
+.vagasAbertas__anuncio{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    align-items: center;
+}
+
+.vagasAbertas__tipo{
+    display: flex;
+    flex-direction: column;
+    width: 48rem;
+}
+
+.vagasAbertas__tipo-nome{
+    color: #101828;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin: 2rem 0;
+}
+
+.vagasAbertas__vaga{
+    display: block;
+    padding: 1.5rem;
+    border: 1px solid #EAECF0;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    transition: 0.2s;
+}
+
+.vagasAbertas__vaga:hover{
+    border-color: #8E2424;
+    /* border-width: 2px; */
+    box-shadow: 1px 0px 3px 2px #8E2424 ;
+}
+
+.vagasAbertas__vaga-nome{
+    color: #101828;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.75rem; 
+}
+
+.vagasAbertas__vaga-salario, .vagasAbertas__vaga-periodo{
+    color: #667085;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.vagasAbertas__vaga-salario{
+    margin-left: 1.5rem;
+}
