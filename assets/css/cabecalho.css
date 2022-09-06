@@ -29,3 +29,32 @@
     width: 55vw;
     line-height: 1.875rem;
 }
+
+@media screen and (max-width: 480px) {
+
+    .cabecalho{
+        margin-top: 4rem;
+        height: auto;
+    }
+
+    .cabecalho__titulo{
+        text-align: center;
+    }
+
+    .cabecalho__txtsuporte{
+        width: 80vw;
+    }
+    
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    
+    .cabecalho{
+        margin-top: 4rem;
+        height: auto;
+    }
+
+    .cabecalho__titulo{
+        text-align: center;
+    }
+}

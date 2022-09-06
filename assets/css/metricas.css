@@ -33,3 +33,35 @@
     line-height: 1.5rem;
     align-self: stretch;
 }
+
+@media screen and (max-width: 480px) {
+
+    .metricas{
+       flex-direction: column;
+       align-items: center;
+       margin-bottom: 3rem;
+       padding-bottom: 0;
+
+    }
+
+    .metricas__tipo{
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    
+    .metricas{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3rem;
+        padding-bottom: 0;
+    }
+
+    .metricas__tipo{
+        width: 50%;
+        text-align: center;
+    }
+}

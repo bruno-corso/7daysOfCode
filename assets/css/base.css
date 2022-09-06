@@ -5,3 +5,18 @@
 .container{
     padding: 0 7rem;
 }
+
+@media screen and (max-width: 480px) {
+
+    .container{
+        padding: 0 1rem;
+    }
+    
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    
+    .container{
+        padding: 0 3rem;
+    }
+}

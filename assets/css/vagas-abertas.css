@@ -95,3 +95,30 @@
 .vagasAbertas__vaga-salario{
     margin-left: 1.5rem;
 }
+
+@media screen and (max-width: 480px) {
+
+    .vagasAbertas__tipo{
+        width: 100%;
+    }
+
+    .vagasAbertas__img{
+        width: 100vw;
+    }
+
+    .vagasAbertas{
+        margin-bottom: 3rem;
+    }
+    
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    
+    .vagasAbertas__tipo{
+        width: 100%;
+    }
+
+    .vagasAbertas{
+        margin-bottom: 3rem;
+    }
+}

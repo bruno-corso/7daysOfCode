@@ -58,3 +58,52 @@
     line-height: 1.5rem;
     margin-bottom: 4rem;
 }
+
+@media screen and (max-width: 480px) {
+
+    .rodape__titulo{
+        font-size: 2rem;
+        line-height: initial;
+        text-align: center;
+    }
+    .rodape__subtitulo{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .rodape__contato{
+        flex-direction: column;
+        align-items: center;
+    }
+    .rodape__email{
+        width: 75vw;
+        margin-bottom: 1rem;
+        padding: 0.1rem 1rem;
+    }
+    .rodape__botao{
+        margin-left: 0;
+        line-height: 2rem;
+    }
+    .rodape__copyright{
+        text-align: center;
+        font-size: 0.5rem;
+    }
+    
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    
+    .rodape__titulo{
+        font-size: 2rem;
+        line-height: initial;
+        text-align: center;
+    }
+
+    .rodape__subtitulo{
+        text-align: center;
+    }
+
+    .rodape__copyright{
+        text-align: center;
+        font-size: 0.5rem;
+    }
+}

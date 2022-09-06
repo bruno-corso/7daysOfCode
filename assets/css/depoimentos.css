@@ -55,3 +55,29 @@
     font-size: 0.875rem;
     line-height: 1.25rem;
 }
+
+@media screen and (max-width: 480px) {
+
+    .depoimentos{
+        margin: 1rem 1rem;
+    }
+
+    .depoimentos__texto{
+        font-size: 1rem;
+        line-height: initial;
+    }
+    
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    
+    .depoimentos{
+        margin: 1rem 3rem;
+    }
+
+    .depoimentos__texto{
+        font-size: 1.5rem;
+        line-height: initial;
+    }
+    
+}
